@@ -65,6 +65,9 @@
                 <li class="nav-item @if (\Request::is('contact.html')) active @endif"><a
                         class="nav-link link text-black display-4" href="{{route('contact')}}">CONTACT
                         US</a></li>
+                        <li class="nav-item @if (\Request::is('registation.html')) active @endif"><a
+                        class="nav-link link text-black display-4" href="{{route('registation')}}">Registation
+                        </a></li>
                 <li class="nav-item @if (\Request::is('important_link.html')) active @endif"><a
                         class="nav-link link text-black display-4" href="{{route('important.link')}}">IMPORTANT LINK</a></li>
                 @if($liveVideoCount > 0)
