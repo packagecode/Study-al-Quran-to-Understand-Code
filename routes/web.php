@@ -21,6 +21,7 @@ Route::get('/publication' . $suffix, 'PublicController@publication')->name('publ
 Route::get('/gallery' . $suffix, 'PublicController@gallery')->name('gallery');
 Route::get('/liveclass' . $suffix, 'PublicController@liveclass')->name('liveclass');
 Route::get('/important_link' . $suffix, 'PublicController@importantIink')->name('important.link');
+Route::get('/registation' . $suffix, 'PublicController@registation')->name('registation');
 Auth::routes(['register' => false]);
 
 Route::get('/home', 'HomeController@index')->name('home');

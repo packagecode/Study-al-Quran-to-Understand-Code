@@ -41,6 +41,23 @@ class PublicController extends Controller
         return View::make('public.contact');
     }
 
+    public function registation(Request $request)
+    {
+        if ($request->isMethod('post')) {
+            $this->validate($request, [
+                'name' => 'required|string',
+                'phone' => 'required|string',
+                'email' => 'required|email',
+                'message' => 'required|string'
+            ]);
+            $data = $request->all();
+            $data['ip'] = $request->ip();
+            Contact::create($data);
+            return redirect()->back()->with('success', 'Message Sent Successfully !');
+        }
+        return View::make('public.registation');
+    }
+
     public function publication()
     {
         $data['results'] = Publication::orderBy('priority')->get();
