@@ -38,7 +38,7 @@
                                 @enderror
                             </div>
                             <div class="form-group  @error('fathername  ') has-error @enderror">
-                                <label>Father Name</label>
+                                <label>Father's Name</label>
                                 <input type="text" name="fathername " value="{{$registration->fathername}}" class="form-control" placeholder="Enter title" required>
                                 @error('fathername')
                                 <span class="invalid-feedback" role="alert">

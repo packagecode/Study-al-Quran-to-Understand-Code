@@ -15,7 +15,7 @@
                             <th>Class name</th>
                             <th>Name</th>
                             <th>Profile photo</th>
-                            <th>Father Name</th>
+                            <th>Father's Name</th>
                             <th>Education</th>
                             <th>Profession Designation</th>
                             <th>Present Address</th>
