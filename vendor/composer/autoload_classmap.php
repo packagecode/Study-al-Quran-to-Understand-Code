@@ -42,6 +42,7 @@ return array(
     'App\\Providers\\RouteServiceProvider' => $baseDir . '/app/Providers/RouteServiceProvider.php',
     'App\\Publication' => $baseDir . '/app/Publication.php',
     'App\\QuranClass' => $baseDir . '/app/QuranClass.php',
+    'App\\Registration' => $baseDir . '/app/Registration.php',
     'App\\Setting' => $baseDir . '/app/Setting.php',
     'App\\Slider' => $baseDir . '/app/Slider.php',
     'App\\User' => $baseDir . '/app/User.php',

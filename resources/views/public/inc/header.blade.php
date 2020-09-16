@@ -65,8 +65,8 @@
                 <li class="nav-item @if (\Request::is('contact.html')) active @endif"><a
                         class="nav-link link text-black display-4" href="{{route('contact')}}">CONTACT
                         US</a></li>
-                        <li class="nav-item @if (\Request::is('registation.html')) active @endif"><a
-                        class="nav-link link text-black display-4" href="{{route('registation')}}">Registation
+                        <li class="nav-item @if (\Request::is('user/registration/create')) active @endif"><a
+                        class="nav-link link text-black display-4" href="{{route('registration.create')}}">Registration
                         </a></li>
                 <li class="nav-item @if (\Request::is('important_link.html')) active @endif"><a
                         class="nav-link link text-black display-4" href="{{route('important.link')}}">IMPORTANT LINK</a></li>

@@ -547,6 +547,7 @@ class ComposerStaticInit0710669ee358eac687373ffbff2b420f
         'App\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/app/Providers/RouteServiceProvider.php',
         'App\\Publication' => __DIR__ . '/../..' . '/app/Publication.php',
         'App\\QuranClass' => __DIR__ . '/../..' . '/app/QuranClass.php',
+        'App\\Registration' => __DIR__ . '/../..' . '/app/Registration.php',
         'App\\Setting' => __DIR__ . '/../..' . '/app/Setting.php',
         'App\\Slider' => __DIR__ . '/../..' . '/app/Slider.php',
         'App\\User' => __DIR__ . '/../..' . '/app/User.php',

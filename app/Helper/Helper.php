@@ -17,6 +17,8 @@ function fileUpload($file, $type)
         $storeName = '/storage/coverpic';
     } elseif ($type == 'E') {
         $storeName = '/storage/example';
+    }elseif ($type == 'P') {
+        $storeName = '/storage/registationphoto';
     }
     $path = $_SERVER['DOCUMENT_ROOT'] . $storeName;
     $file->move($path, $finalName);

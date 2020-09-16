@@ -9,19 +9,19 @@
     <link rel="shortcut icon" href="assets/images/logo-150x125.png" type="image/x-icon">
     <meta name="description" content="">
     <title>@isset($title)  {{ $title }} |  @endisset {{config('app.name')}}</title>
-    <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
-    <link rel="stylesheet" href="assets/tether/tether.min.css">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
-    <link rel="stylesheet" href="assets/dropdown/css/style.css">
-    <link rel="stylesheet" href="assets/socicon/css/styles.css">
-    <link rel="stylesheet" href="assets/datatables/data-tables.bootstrap4.min.css">
-    <link rel="stylesheet" href="assets/animatecss/animate.min.css">
-    <link rel="stylesheet" href="assets/theme/css/style.css">
-    <link href="assets/fonts/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{asset('assets/web/assets/mobirise-icons/mobirise-icons.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/tether/tether.min.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/bootstrap/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/bootstrap/css/bootstrap-grid.min.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/bootstrap/css/bootstrap-reboot.min.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/dropdown/css/style.css')}}">
+    <link rel="stylesheet" href="{{asset('/socicon/css/styles.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/datatables/data-tables.bootstrap4.min.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/animatecss/animate.min.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/theme/css/style.css')}}">
+    <link href="{{asset('assets/fonts/style.css" rel="stylesheet')}}">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+    <link rel="stylesheet" href="{{asset('assets/mobirise/css/mbr-additional.css')}}" type="text/css">
     @yield('cssScript')
 </head>
 <body>
