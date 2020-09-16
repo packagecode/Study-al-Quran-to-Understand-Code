@@ -20,7 +20,7 @@
                 <p class="mb-4 foot-title mbr-fonts-style display-7"><strong>যোগাযোগঃ</strong></p>
                 <p class="mbr-text mbr-fonts-style foot-text display-4">মোবাইল: +৮৮০ ১৯৭৩৫৬ ৯২৪৬
                     <br>ইমেইল: info@studyalqurantounderstand.org
-                    <br>হেল্প লাইন: +৮৮০ ১৯৭৩৫৬ ৯২৪৬&nbsp;<br>ঢাকা ১০০০, বাংলাদেশ ।</p>
+                    <br>হেল্প লাইন: +৮৮০ ১৭১২০৬০২০৯&nbsp;<br>ঢাকা ১০০০, বাংলাদেশ ।</p>
             </div>
             <div class="col-md-4 offset-md-1 col-sm-12">
                 <p class="mb-4 foot-title mbr-fonts-style display-7">
