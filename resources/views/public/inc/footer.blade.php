@@ -6,7 +6,7 @@
             <div class="col-md-3 col-sm-4">
                 <div class="mb-3 img-logo">
 
-                    <img src="assets/images/logo-150x125.png" alt="Mobirise" title="">
+                    <img src="{{asset('assets/images/logo-150x125.png')}}" alt="Mobirise" title="">
 
                 </div>
                 <p class="mb-3 mbr-fonts-style foot-title display-7"><strong>প্রয়োজনীয় তথ্যাদি:</strong></p>

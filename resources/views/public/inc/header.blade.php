@@ -26,7 +26,7 @@
                 <span class="navbar-logo">
                     <a href="http://studyalqurantounderstand.org/">
                         <img src="{{asset('assets/images/logo-150x125.png')}}" alt="Mobirise" title=""
-                             style="height: 8rem;">
+                             style="height: 6rem;">
                     </a>
                 </span>
 
@@ -66,7 +66,7 @@
                         class="nav-link link text-black display-4" href="{{route('contact')}}">CONTACT
                         US</a></li>
                         <li class="nav-item @if (\Request::is('user/registration/create')) active @endif"><a
-                        class="nav-link link text-black display-4" href="{{route('registration.create')}}">Registration
+                        class="nav-link link text-black display-4" href="{{route('registration.create')}}">REGISTRATION
                         </a></li>
                 <li class="nav-item @if (\Request::is('important_link.html')) active @endif"><a
                         class="nav-link link text-black display-4" href="{{route('important.link')}}">IMPORTANT LINK</a></li>
